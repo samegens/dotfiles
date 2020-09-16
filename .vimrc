@@ -9,4 +9,4 @@ autocmd Filetype python setlocal et sts=4 ai omnifunc=pythoncomplete#Complete
 autocmd Filetype yaml setlocal et ts=2 sw=2
 :color pablo
 set laststatus=2
-set statusline+=%F%m%r
+set statusline+=%F%m%r%=%c,%l\ [%{&fileformat}]
